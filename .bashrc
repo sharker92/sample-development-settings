@@ -5,9 +5,10 @@ alias gbr='git branch -v'
 alias gba='git branch -a'
 alias gc='git commit'
 alias gd='git diff'
-alias go='git checkout '
+alias gco='git checkout '
 alias gp='git push '
 alias gpl='git pull '
+alias gl='git log '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 alias hs='history | grep $1'
@@ -19,7 +20,7 @@ function mkcd() {
   cd $1
 }
 
-export -f mkcd 
+export -f mkcd
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
