@@ -1,22 +1,43 @@
 # Victor's configuration
 
-### Install the following
+1. Install homebrew
+Copy and paste the following into a terminal window:
 ```
-homebrew
-oh-my-zshrc
-nvm
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+Then
+```
+brew doctor
 ```
 
+2. git
+```
+brew install git
+```
+
+3. nvm
+```
+brew install nvm
+```
+
+4. Oh my zshrc
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+[Source](https://github.com/robbyrussell/oh-my-zsh#via-curl)
+
+5. Download this repository
+
+6. Replace the terminal color scheme.
+Import the `argonaut.terminal` file into the terminal by going to `Preferences`. At the bottom of the list of terminal themes, click on the gear icon and then on the import option.
+
 ### Home directory files
-Add the following files to your home directory `~/`
+Add the following files from this repository to your home directory `~/`
 ```
 .gitconfig
 .zshrc
 .bash_profile
 ```
-
-### Terminal color scheme
-Import the `argonaut.terminal` file into the terminal by going to `Preferences`. At the bottom of the list of terminal themes, click on the gear icon and then on the import option.
 
 ### Load the visual studio code extensions
 1. Download the 'Settings Sync' extension
