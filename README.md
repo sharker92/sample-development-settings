@@ -60,3 +60,6 @@ d. Here is the link to the most up-to-date gist
 
 Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
 [Source](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
+
+#### 10. Install Docker
+[Get it here](https://docs.docker.com/docker-for-mac/install/)
