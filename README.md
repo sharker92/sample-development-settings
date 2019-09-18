@@ -1,5 +1,15 @@
 # Victor's configuration
 
+
+## Applications to download
+
+- [Jiggler](http://www.sticksoftware.com/software/Jiggler.html)
+- Camtasia
+- [Visual studio code](https://code.visualstudio.com/download)
+
+
+## Setting up the development environment
+
 #### 1. Install homebrew
 
 Copy and paste the following into a terminal window:
