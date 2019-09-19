@@ -6,7 +6,7 @@
 - [Jiggler](http://www.sticksoftware.com/software/Jiggler.html)
 - Camtasia
 - [Visual studio code](https://code.visualstudio.com/download)
-
+- [Azure data studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
 
 ## Setting up the development environment
 
