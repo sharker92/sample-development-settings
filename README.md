@@ -11,7 +11,15 @@
 
 ## Setting up the development environment
 
-#### 1. Install homebrew
+
+#### 1. Install Oh my zshrc
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+[Source](https://github.com/robbyrussell/oh-my-zsh#via-curl)
+
+#### 2. Install homebrew
 
 Copy and paste the following into a terminal window:
 ```
@@ -22,24 +30,17 @@ Then
 brew doctor
 ```
 
-#### 2. Install git
+#### 3. Install git
 
 ```
 brew install git
 ```
 
-#### 3. Install nvm
+#### 4. Install nvm
 
 ```
 brew install nvm
 ```
-
-#### 4. Oh my zshrc
-
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-[Source](https://github.com/robbyrussell/oh-my-zsh#via-curl)
 
 #### 5. Download this repository
 
@@ -53,10 +54,16 @@ Import the `argonaut.terminal` file into the terminal by going to `Preferences`.
 
 #### 7. Copy files to home directory
 
-```
+```bash
 cp .gitconfig ~/
 cp .zshrc ~/
 cp .bash_profile ~/
+```
+
+**Note**: Make sure to replace line 5 of the `.zshrc` with the actual path of the `.oh-my-zsh` installation. It should look something like the following:
+
+```bash
+export ZSH="/Users/{YOUR_USER_HERE}/.oh-my-zsh"
 ```
 
 #### 8. Load the visual studio code extensions
