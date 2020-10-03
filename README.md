@@ -68,10 +68,10 @@ export ZSH="/Users/{YOUR_USER_HERE}/.oh-my-zsh"
 
 #### 8. Load the visual studio code extensions
 
-a. Download the 'Settings Sync' extension
-b. Press `cmd + shift + p` and type `Sync`
-c. Choose the `Sync: Download Settings` option
-d. Here is the link to the most up-to-date gist
+- Download the 'Settings Sync' extension from the Visual Studio Code marketplace
+- Press `cmd + shift + p` and type `Sync`
+- Choose the `Sync: Download Settings` option
+- Here is the link to the most up-to-date gist
 > https://gist.github.com/viiqswim/ed482ae64cdb8fc50b947c9e321a2692
 
 #### 9. Install 'code' command in PATH
