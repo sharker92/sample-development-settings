@@ -3,11 +3,12 @@
 
 ## Applications to download
 
-- [Jiggler](https://www.sticksoftware.com/software/Jiggler.html)
-- [Spectacle](https://www.spectacleapp.com/)
+- [Jiggler](https://www.sticksoftware.com/software/Jiggler.html). Prevents Mac from locking.
+- [Spectacle](https://www.spectacleapp.com/). Helps with window management through keyboard shortcuts.
+- [Dozer](https://github.com/Mortennn/Dozer). Helps hide useless menu bar icons
+- [Visual studio code](https://code.visualstudio.com/download). Code development.
+- [Azure data studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017). SQL development (MSSQL and PostgreSQL)
 - Camtasia
-- [Visual studio code](https://code.visualstudio.com/download)
-- [Azure data studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
 
 ## Setting up the development environment
 
