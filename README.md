@@ -14,14 +14,14 @@
 ## Setting up the development environment
 
 
-#### 1. Install Oh my zshrc
+#### Install Oh my zshrc
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 [Source](https://github.com/robbyrussell/oh-my-zsh#via-curl)
 
-#### 2. Install homebrew
+#### Install homebrew
 
 Copy and paste the following into a terminal window:
 ```
@@ -32,25 +32,35 @@ Then
 brew doctor
 ```
 
-#### 3. Install git
+#### Install git
 
 ```
 brew install git
 ```
 
-#### 4. Install nvm
+#### Install nvm
+
+`nvm` is used to manage node versions, including which one to use at any given moment.
 
 ```
 brew install nvm
 ```
 
-#### 5. Download this repository
+#### Install pyenv
+
+`pyenv` is used to manage python versions, including which one to use at any given moment.
+
+```
+brew install pyenv
+```
+
+#### Download this repository
 
 ```
 git clone https://github.com/viiqswim/victor-development-settings.git
 ```
 
-#### 6. Replace the terminal color scheme.
+#### Replace the terminal color scheme.
 
 Import the `argonaut.terminal` file into the terminal by going to `Preferences`. At the bottom of the list of terminal themes, click on the gear icon and then on the import option.
 
@@ -68,7 +78,7 @@ cp .bash_profile ~/
 export ZSH="/Users/{YOUR_USER_HERE}/.oh-my-zsh"
 ```
 
-#### 8. Load the visual studio code extensions
+#### Load the visual studio code extensions
 
 - Download the 'Settings Sync' extension from the Visual Studio Code marketplace
 - Press `cmd + shift + p` and type `Sync`
@@ -76,10 +86,10 @@ export ZSH="/Users/{YOUR_USER_HERE}/.oh-my-zsh"
 - Here is the link to the most up-to-date gist
 > https://gist.github.com/viiqswim/ed482ae64cdb8fc50b947c9e321a2692
 
-#### 9. Install 'code' command in PATH
+#### Install 'code' command in PATH
 
 Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
 [Source](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
 
-#### 10. Install Docker
+#### Install Docker
 [Get it here](https://docs.docker.com/docker-for-mac/install/)
