@@ -3,7 +3,7 @@
 
 ## Applications to download
 
-- [SoundBooster] (https://froyosoft.com/soundbooster.php). Increases MacbookPro's default max volume. Note - this may mess with your macbook pro's default sounds behavior.
+- [SoundBooster](https://froyosoft.com/soundbooster.php). Increases MacbookPro's default max volume. Note - this may mess with your macbook pro's default sounds behavior.
 - [Jiggler](https://www.sticksoftware.com/software/Jiggler.html). Prevents Mac from locking.
 - [Spectacle](https://www.spectacleapp.com/). Helps with window management through keyboard shortcuts.
 - [Dozer](https://github.com/Mortennn/Dozer). Helps hide useless menu bar icons.
