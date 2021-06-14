@@ -10,6 +10,7 @@
 - [Remote Mouse](https://www.remotemouse.net/). Helps control your computer with your phone.
 - [Visual studio code](https://code.visualstudio.com/download). Code development.
 - [Azure data studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017). SQL development (MSSQL and PostgreSQL)
+- [Dozer](https://github.com/Mortennn/Dozer). Helps remove the clutter from mac's menu bar by hiding icons.
 - Camtasia
 
 ## Setting up the development environment
