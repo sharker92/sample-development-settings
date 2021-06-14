@@ -11,6 +11,7 @@
 - [Visual studio code](https://code.visualstudio.com/download). Code development.
 - [Azure data studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017). SQL development (MSSQL and PostgreSQL)
 - [Dozer](https://github.com/Mortennn/Dozer). Helps remove the clutter from mac's menu bar by hiding icons.
+- [Fig](https://fig.io/?ref=hn). Gives visual-studio-like auto-complete on your terminal.
 - Camtasia
 
 ## Setting up the development environment
