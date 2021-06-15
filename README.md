@@ -3,6 +3,7 @@
 
 ## Applications to download
 
+- [Chrome](https://www.google.com/chrome/)
 - [SoundBooster](https://froyosoft.com/soundbooster.php). Increases MacbookPro's default max volume. Note - this may mess with your macbook pro's default sounds behavior.
 - [Jiggler](https://www.sticksoftware.com/software/Jiggler.html). Prevents Mac from locking.
 - [Spectacle](https://www.spectacleapp.com/). Helps with window management through keyboard shortcuts.
@@ -12,7 +13,17 @@
 - [Azure data studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017). SQL development (MSSQL and PostgreSQL)
 - [Dozer](https://github.com/Mortennn/Dozer). Helps remove the clutter from mac's menu bar by hiding icons.
 - [Fig](https://fig.io/?ref=hn). Gives visual-studio-like auto-complete on your terminal.
+- [RescueTime](https://www.rescuetime.com/download_mac)
+- [Loom](https://www.loom.com/download)
+- [Zoom](https://zoom.us/download)
+- [Tandem](https://tandem.chat/welcome/download)
+- [Docker](https://docs.docker.com/docker-for-mac/install/)
+- [Postman](https://www.postman.com/downloads/)
+- [Acrobat Reader DC](https://get.adobe.com/reader/otherversions/)
+- [Monosnap](https://monosnap.com/download/mac)
 - Camtasia
+
+# Log in to Gmail Accounts
 
 ## Setting up the development environment
 
@@ -57,6 +68,14 @@ brew install nvm
 brew install pyenv
 ```
 
+#### Install Google Cloud SDK
+
+`google-cloud-sdk` is used to manage GCP resources.
+
+```
+brew install google-cloud-sdk
+```
+
 #### Download this repository
 
 ```
@@ -67,7 +86,7 @@ git clone https://github.com/viiqswim/victor-development-settings.git
 
 Import the `argonaut.terminal` file into the terminal by going to `Preferences`. At the bottom of the list of terminal themes, click on the gear icon and then on the import option.
 
-#### 7. Copy files to home directory
+#### Copy files to home directory
 
 ```bash
 cp .gitconfig ~/
@@ -94,5 +113,3 @@ export ZSH="/Users/{YOUR_USER_HERE}/.oh-my-zsh"
 Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
 [Source](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
 
-#### Install Docker
-[Get it here](https://docs.docker.com/docker-for-mac/install/)
