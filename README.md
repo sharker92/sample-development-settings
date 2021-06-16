@@ -37,14 +37,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 #### Install homebrew
 
-Copy and paste the following into a terminal window:
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-Then
-```
-brew doctor
-```
+Find the instructions here: https://brew.sh/
 
 #### Install git
 
