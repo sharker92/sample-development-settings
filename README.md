@@ -73,7 +73,7 @@ brew install pyenv
 `google-cloud-sdk` is used to manage GCP resources.
 
 ```
-brew install google-cloud-sdk
+brew install --cask google-cloud-sdk
 ```
 
 #### Download this repository
