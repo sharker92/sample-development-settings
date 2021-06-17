@@ -128,3 +128,7 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 #### NVM END ####
+
+#### Google Cloud SKD START ###
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+#### Google Cloud SKD END ###
