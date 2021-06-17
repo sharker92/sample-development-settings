@@ -1,32 +1,57 @@
 # Victor's configuration
 
+## Install homebrew
+
+First and foremost, install `brew`. Find the instructions here: https://brew.sh/
 
 ## Applications to download
 
+### The following apps can be downloaded with brew
+
 - [Chrome](https://www.google.com/chrome/)
-- [SoundBooster](https://froyosoft.com/soundbooster.php). Increases MacbookPro's default max volume. Note - this may mess with your macbook pro's default sounds behavior.
 - [Jiggler](https://www.sticksoftware.com/software/Jiggler.html). Prevents Mac from locking.
 - [Spectacle](https://www.spectacleapp.com/). Helps with window management through keyboard shortcuts.
 - [Dozer](https://github.com/Mortennn/Dozer). Helps hide useless menu bar icons.
-- [Remote Mouse](https://www.remotemouse.net/). Helps control your computer with your phone.
 - [Visual studio code](https://code.visualstudio.com/download). Code development.
 - [Azure data studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017). SQL development (MSSQL and PostgreSQL)
-- [Dozer](https://github.com/Mortennn/Dozer). Helps remove the clutter from mac's menu bar by hiding icons.
-- [Fig](https://fig.io/?ref=hn). Gives visual-studio-like auto-complete on your terminal.
 - [RescueTime](https://www.rescuetime.com/download_mac)
+- [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [Loom](https://www.loom.com/download)
 - [Zoom](https://zoom.us/download)
-- [Tandem](https://tandem.chat/welcome/download)
-- [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [Postman](https://www.postman.com/downloads/)
+- [Tandem](https://tandem.chat/welcome/download)
 - [Acrobat Reader DC](https://get.adobe.com/reader/otherversions/)
+- [Google Cloud SDK](https://cloud.google.com/sdk/docs/install). Used to manage GCP resources.
+
+Install all of the above with the following command:
+
+```sh
+brew install --cask google-chrome jiggler spectacle dozer visual-studio-code azure-data-studio rescuetime docker loom zoom postman tandem adobe-acrobat-reader google-cloud-sdk
+```
+
+Other apps to install that do not use `--cask`:
+
+- [Git](https://git-scm.com/). Source Code control.
+- [nvm](https://github.com/nvm-sh/nvm). "Node Version Manager"
+- [pyenv](https://github.com/pyenv/pyenv). "Simple Python Version Management"
+
+```sh
+brew install git nvm pyenv
+```
+
+Other apps to download, but cannot be downloaded with `brew`:
+
+- [SoundBooster](https://froyosoft.com/soundbooster.php). Increases MacbookPro's default max volume. Note - this may mess with your macbook pro's default sounds behavior.
+- [Remote Mouse](https://www.remotemouse.net/). Helps control your computer with your phone.
+- [Fig](https://fig.io/?ref=hn). Gives visual-studio-like auto-complete on your terminal.
 - [Monosnap](https://monosnap.com/download/mac)
 - Camtasia
 
-# Log in to Gmail Accounts
+## Log in to Gmail Accounts
 
-## Setting up the development environment
+Next, open Chrome and log in with all of the gmail accounts.
 
+## Set up the development environment
 
 #### Install Oh my zshrc
 
@@ -34,40 +59,6 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 [Source](https://github.com/robbyrussell/oh-my-zsh#via-curl)
-
-#### Install homebrew
-
-Find the instructions here: https://brew.sh/
-
-#### Install git
-
-```
-brew install git
-```
-
-#### Install nvm
-
-`nvm` is used to manage node versions, including which one to use at any given moment.
-
-```
-brew install nvm
-```
-
-#### Install pyenv
-
-`pyenv` is used to manage python versions, including which one to use at any given moment.
-
-```
-brew install pyenv
-```
-
-#### Install Google Cloud SDK
-
-`google-cloud-sdk` is used to manage GCP resources.
-
-```
-brew install --cask google-cloud-sdk
-```
 
 #### Download this repository
 
