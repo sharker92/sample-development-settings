@@ -57,29 +57,21 @@ Next, open Chrome and log in with all of the gmail accounts.
 
 Find installation instructions here: https://github.com/ohmyzsh/ohmyzsh#basic-installation
 
-#### Download this repository
+#### Load home directory settings
 
-```
-git clone https://github.com/viiqswim/victor-development-settings.git
+Copy the contents of the follwing files to the corresponding files in your home directory:
+
+```sh
+.gitconfig
+.zshrc
+.bash_profile
 ```
 
 #### Replace the terminal color scheme.
 
-Import the `argonaut.terminal` file into the terminal by going to `Preferences`. At the bottom of the list of terminal themes, click on the gear icon and then on the import option.
-
-#### Copy files to home directory
-
-```bash
-cp .gitconfig ~/
-cp .zshrc ~/
-cp .bash_profile ~/
-```
-
-**Note**: Make sure to replace line 5 of the `.zshrc` with the actual path of the `.oh-my-zsh` installation. It should look something like the following:
-
-```bash
-export ZSH="/Users/{YOUR_USER_HERE}/.oh-my-zsh"
-```
+1. Save the contents of the `argonaut.terminal` file to your computer. 
+2. Import the `argonaut.terminal` file into the terminal by going to `Preferences`.
+3. At the bottom of the list of terminal themes, click on the gear icon and then on the import option.
 
 #### Load the visual studio code extensions
 
@@ -88,9 +80,3 @@ export ZSH="/Users/{YOUR_USER_HERE}/.oh-my-zsh"
 - Choose the `Sync: Download Settings` option
 - Here is the link to the most up-to-date gist
 > https://gist.github.com/viiqswim/ed482ae64cdb8fc50b947c9e321a2692
-
-#### Install 'code' command in PATH
-
-Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command.
-[Source](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
-
