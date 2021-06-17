@@ -55,10 +55,7 @@ Next, open Chrome and log in with all of the gmail accounts.
 
 #### Install Oh my zshrc
 
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-[Source](https://github.com/robbyrussell/oh-my-zsh#via-curl)
+Find installation instructions here: https://github.com/ohmyzsh/ohmyzsh#basic-installation
 
 #### Download this repository
 
