@@ -37,7 +37,7 @@ Other apps to install that do not use `--cask`:
 - [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv#installing-with-homebrew-for-macos-users). Allows usage of virtual envs with a python version of your choice.
 
 ```sh
-brew install git nvm pyenv
+brew install git nvm pyenv pyenv-virtualenv
 ```
 
 Other apps to download, but cannot be downloaded with `brew`:
