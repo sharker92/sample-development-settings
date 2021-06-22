@@ -34,6 +34,7 @@ Other apps to install that do not use `--cask`:
 - [Git](https://git-scm.com/). Source Code control.
 - [nvm](https://github.com/nvm-sh/nvm). "Node Version Manager"
 - [pyenv](https://github.com/pyenv/pyenv). "Simple Python Version Management"
+- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv#installing-with-homebrew-for-macos-users). Allows usage of virtual envs with a python version of your choice.
 
 ```sh
 brew install git nvm pyenv
