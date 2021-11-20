@@ -46,7 +46,8 @@ Other apps to download, but cannot be downloaded with `brew`:
 - [Remote Mouse](https://www.remotemouse.net/). Helps control your computer with your phone.
 - [Fig](https://fig.io/?ref=hn). Gives visual-studio-like auto-complete on your terminal.
 - [Monosnap](https://monosnap.com/download/mac)
-- Camtasia
+- [Camtasia](https://drive.google.com/drive/folders/19BVuOI5uKHO1MQAw7OzJAzXFsv4q-xl8?usp=sharing)
+- [CatchMouse](https://drive.google.com/drive/folders/13Zu5j1NQ2adUG7vRnSMKwLxVuAJfZD9U?usp=sharing). Allows you to make your cursor move to any given display with a keyboard shortcut.
 
 ## Setup app switcher
 
