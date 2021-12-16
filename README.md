@@ -19,14 +19,13 @@ First and foremost, install `brew`. Find the instructions here: https://brew.sh/
 - [Loom](https://www.loom.com/download)
 - [Zoom](https://zoom.us/download)
 - [Postman](https://www.postman.com/downloads/)
-- [Tandem](https://tandem.chat/welcome/download)
 - [Acrobat Reader DC](https://get.adobe.com/reader/otherversions/)
 - [Google Cloud SDK](https://cloud.google.com/sdk/docs/install). Used to manage GCP resources.
 
 Install all of the above with the following command:
 
 ```sh
-brew install --cask google-chrome jiggler spectacle dozer visual-studio-code azure-data-studio rescuetime docker loom zoom postman tandem adobe-acrobat-reader google-cloud-sdk
+brew install --cask google-chrome jiggler spectacle dozer visual-studio-code azure-data-studio rescuetime docker loom zoom postman adobe-acrobat-reader google-cloud-sdk
 ```
 
 Other apps to install that do not use `--cask`:
@@ -46,7 +45,6 @@ Other apps to download, but cannot be downloaded with `brew`:
 - [Remote Mouse](https://www.remotemouse.net/). Helps control your computer with your phone.
 - [Fig](https://fig.io/?ref=hn). Gives visual-studio-like auto-complete on your terminal.
 - [Monosnap](https://monosnap.com/download/mac)
-- [Camtasia](https://drive.google.com/drive/folders/19BVuOI5uKHO1MQAw7OzJAzXFsv4q-xl8?usp=sharing)
 - [CatchMouse](https://drive.google.com/drive/folders/13Zu5j1NQ2adUG7vRnSMKwLxVuAJfZD9U?usp=sharing). Allows you to make your cursor move to any given display with a keyboard shortcut.
 
 ## Setup app switcher
@@ -57,10 +55,6 @@ When pressing cmd + tab, the app switcher pops up. Problem is that it only pops 
 defaults write com.apple.Dock appswitcher-all-displays -bool true
 killall Dock
 ```
-
-## Log in to Gmail Accounts
-
-Next, open Chrome and log in with all of the gmail accounts.
 
 ## Set up the development environment
 
