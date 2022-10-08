@@ -52,7 +52,7 @@ Other apps to download, but cannot be downloaded with `brew`:
 When pressing cmd + tab, the app switcher pops up. Problem is that it only pops up on one screen, which can sometimes get annoying if you're looking at the wrong screen. To make the app switcher show up in all screens, run the following command from the terminal:
 
 ```sh
-defaults write com.apple.Dock appswitcher-all-displays -bool true
+defaults write com.apple.dock appswitcher-all-displays -bool true
 killall Dock
 ```
 
